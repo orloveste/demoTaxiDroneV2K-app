@@ -10,9 +10,8 @@ import java.util.Date;
 @Entity
 public class TaxiDrone {
     @javax.persistence.Id
-    @JoinColumn
+
     private Integer Id;
-    @JoinColumn
     private String name;
     private String model;
     private String updateBy;
